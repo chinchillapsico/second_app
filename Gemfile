@@ -8,10 +8,8 @@ gem 'rails', '~> 6.0.0'
 group :development do 
   gem 'sqlite3'    #gem to use in development environment
 end
+gem 'pg'
 
-group :production do 
- gem 'pg'         #gem to use in production environment
-end
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
